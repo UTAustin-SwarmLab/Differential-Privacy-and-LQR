@@ -1,0 +1,15 @@
+parameters:  # ARIMA
+  T: 10 # T: total time steps
+  n: 1  # n: x-dim
+  m: 1  # m: u-dim
+  p: 1  # p: s-dim
+  sample_n: 200  # number of data points
+
+uber_para:
+  T: 5 # T: total time steps
+  n: 4 # n: x-dim
+  m: 4  # m: u-dim
+  p: 4  # p: s-dim
+
+  data_direct: "./uber data/"
+  scalerfile: './models/uber_minmaxscaler_4dim.sav'
